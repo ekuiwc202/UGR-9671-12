@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mea+Culpa&family=Oooh+Baby&family=Playball&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+/*.............Gallery......*/
+.layoutG{
+  display:grid;
+  grid-template-rows:20% auto auto auto 20%;
+  grid-template-columns: 75% 25%;
+  background:linear-gradient( #29a3a3,#ffcccc);
+  font-size: 25px;
+}
+.layoutG__navbar{
+  grid-row-start:1;
+  grid-row-end:2;
+  grid-column-start:1;
+  grid-column-end:3;
+}
+.layoutG--nav{
+  list-style-type:none;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  margin:0px;
+  padding:0px;
+}
+
+  .layoutG__navbar{
+  background-image:url(home3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100%;
+  height:80%;
+
+}
+li a:link{
+  background-size: 40px;
+  color:#ffffff;
+  text-align: center;
+  text-decoration:none;
+  text-transform:capitalize;
+  display:block;
+  padding:5px;
+  margin:5px;
+  font-size: 20px;
+  font-family:Playball;
+}
+li a:visited{
+  color:#00f2ff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  display:inline-block;
+  font-size: 20px;
+  font-family:Playball;
+}
+li a:hover,li a:active{
+  background-size: 4px;
+  background-color:#FFFACD;
+  color:#ff8000;
+  border:2px 2px solid #556B2F;
+  padding:1px 1px;
+  display:inline-block;
+  font-size: 20px;
+  font-family:Playball;
+}
+.layoutG__title{
+  grid-row-start:2;
+  grid-row-end:3;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+.layoutG__flex1{
+  grid-row-start:3;
+  grid-row-end:4;
+  grid-column-start:1;
+  grid-column-end:3;
+}
+.layoutG__flex2{
+  grid-row-start:4;
+  grid-row-end:5;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+.layoutG__date{
+  grid-row-start:4;
+  grid-row-end:5;
+  grid-column-start:2;
+  grid-column-end:3;
+}
+.layoutG__footer{
+  grid-row-start:5;
+  grid-row-end:6;
+  grid-column-start:1;
+  grid-column-end:3;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: nowrap;
+}
+.layoutG__flex1,.layoutG__flex2{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.layoutG--wide{
+border:2px solid black;
+border-radius:20px;
+height:200px;
+width:200px;
+}
+}
+.layoutG--narrow{
+border:2px solid black;
+border-radius:20px;
+height:100px;
+width:100px;
+margin-left: -50px;
+margin-top:100px;
+margin-right:50px;
+}
+.layoutG__footer{
+  background-color:#334d4d;
+  color:#ffffff;
+  bottom:0px;
+  }
+  .layoutG--socialmedia{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  /*..........for devices with width less than 600px........*/
+  @media screen and (max-width:700px){
+    .layoutG--nav{
+        flex-direction:column;
+        justify-content: flex-start;
+        left:0;
+        width:100%;
+        padding:0;
+        margin:0;
+      }
+    .layoutG{
+      display:flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+  }
+  .layoutG--wide{
+  border:2px solid black;
+  border-radius:20px;
+  height:20px;
+  width:20px;
+  }
+  }
+  .layoutG--narrow{
+  border:2px solid black;
+  border-radius:20px;
+  height:50px;
+  width:50px;
+  margin-left:-2px;
+
+  }
+
+  li a:link{
+    border:1px solid  #ffffcc;
+    border-radius: 5px;
+  }
+  li a:visited{
+    border:4px 2px solid #8B4513;
+  }
+  li a:hover,li a:active{
+    border:2px 2px solid #556B2F;
+  }
+.layoutG{
+  font-size:15px;
+}
+..layoutG__footer{
+  margin-top:10px;
+}
+  }
+@media screen and (max-width:700px){
+  .layoutC--nav{
+      flex-direction:row;
+      flex-wrap: wrap;
+      left:0;
+      width:100%;
+      margin: 0px;
+    }
+    .layoutG--wide{
+    border:2px solid black;
+    border-radius:20px;
+    height:30px;
+    width:30px;
+    }
+    }
+    .layoutG--narrow{
+    border:2px solid black;
+    border-radius:20px;
+    height:30px;
+    width:30px;
+    margin-left:-2px;
+
+    }
+    .layoutG__footer{
+      margin-top:150px;
+      margin-bottom:0;
+      z-index:3;
+
+    }
+
+}
+
+/*.................the end...............*/
